@@ -1,0 +1,71 @@
+body {
+    height: 100%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: auto;
+    outline: 2px solid red;
+    padding: 20px;
+    min-width: 370px;
+    min-height: 330px;
+}
+
+.question {
+    text-align: left ;
+    margin-left: 10% ;
+    margin-right: 10% ;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    outline: 1px solid red;
+}
+
+label {
+    margin-left: 20px;
+
+}
+
+.button {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 100px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.main {
+    display: block;
+}
+
+.result-page {
+    display: none;
+}
+
+.greet {
+    margin-top: 10%;
+    text-align: center;
+    margin-left: 10% ;
+    margin-right: 10% ;
+}
+
+.result {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}

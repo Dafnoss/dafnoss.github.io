@@ -1,0 +1,46 @@
+.Vector-Smart Object-2, .Vector-Smart Object-3, .fb, .vk, .instagram, .Vector-Smart Object-1, .Vector-Smart Object{
+	background: url(sprites.png) no-repeat;
+}
+
+.Vector-Smart Object-2{
+	background-position: -19px -221px ;
+	width: 62px;
+	height: 55px;
+}
+
+.Vector-Smart Object-3{
+	background-position: -22px -321px ;
+	width: 52px;
+	height: 57px;
+}
+
+.fb{
+	background-position: -36px -438px ;
+	width: 24px;
+	height: 24px;
+}
+
+.vk{
+	background-position: -37px -488px ;
+	width: 24px;
+	height: 24px;
+}
+
+.instagram{
+	background-position: -38px -538px ;
+	width: 23px;
+	height: 24px;
+}
+
+.Vector-Smart Object-1{
+	background-position: -20px -126px ;
+	width: 54px;
+	height: 52px;
+}
+
+.Vector-Smart Object{
+	background-position: -19px -30px ;
+	width: 57px;
+	height: 48px;
+}
+

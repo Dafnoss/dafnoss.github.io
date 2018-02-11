@@ -1,0 +1,54 @@
+<!--
+  KeyShot VR
+  (c) Copyright 2012-2014 Luxion ApS - All Rights Reserved.
+-->
+
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>KeyShotVR</title>
+    <style type="text/css">
+      body { -ms-touch-action: none; }
+    </style>
+    <script type="text/javascript" src="DataStone+V2_VR.218/files/KeyShotVR.js"></script>
+    <script type="text/javascript">
+      var keyshotVR;
+
+      function initKeyShotVR() {
+        var nameOfDiv = "KeyShotVR";
+        var folderName = "DataStone+V2_VR.218";
+        var imageWidth = 769;
+        var imageHeight = 628;
+        var backgroundColor = "#FFFFFF";
+        var uCount = 18;
+        var vCount = 5;
+        var uWrap = true;
+        var vWrap = false;
+        var uMouseSensitivity = -0.050000;
+        var vMouseSensitivity = 0.062500;
+        var uStartIndex = 9;
+        var vStartIndex = 2;
+        var minZoom = 1.000000;
+        var maxZoom = 1.000000;
+        var rotationDamping = 0.960000;
+        var downScaleToBrowser = false;
+        var addDownScaleGUIButton = false;
+        var downloadOnInteraction = false;
+        var imageExtension = "jpg";
+        var showLoading = true;
+        var loadingIcon = "cleverbreeze-logo-symbol-only_VR.png"; // Set to empty string for default icon.
+        var allowFullscreen = true; // Double-click in desktop browsers for fullscreen.
+
+        keyshotVR = new keyshotVR(nameOfDiv,folderName,imageWidth,imageHeight,backgroundColor,uCount,vCount,uWrap,vWrap,uMouseSensitivity,vMouseSensitivity,uStartIndex,vStartIndex,minZoom,maxZoom,rotationDamping,downScaleToBrowser,addDownScaleGUIButton,downloadOnInteraction,imageExtension,showLoading,loadingIcon,allowFullscreen);
+      }
+
+      window.onload = initKeyShotVR;
+    </script>
+  </head>
+  <body oncontextmenu="return false;">
+    <div id="KeyShotVR"></div>
+  </body>
+</html>

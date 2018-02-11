@@ -1,0 +1,674 @@
+body {
+    font-family: 'PFAgoraSansPro-Regular', serif;
+    font-size: 16px;
+    color: #231f20;
+    padding: 0;
+    margin: 0;
+    min-width: 950px;
+}
+
+.panel {
+    position: relative;
+    height: 80px;
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panel::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu {
+    width: 25px;
+    height: 14px;
+    border-top: 2px solid #231A20;
+    border-bottom: 2px solid #231A20;
+    position: absolute;
+    top: 30px;
+    left: -50px;
+    cursor: pointer
+}
+
+.menu::after {
+    content: "";
+    width: 25px ;
+    height: 6px;
+    position: absolute;
+    border-bottom: 2px solid #231A20;
+}
+
+.logo {
+    padding-top: 30px;
+    margin-left: 50px;
+    float: left;
+    cursor: pointer;
+}
+
+.phone {
+    height: 36px;
+    background-color: #ffd200;
+    width: 211px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 37px;
+    position: relative;
+    float: right;
+    margin: 22px 22px;
+    padding: 0;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.phone::after {
+    content: "";
+    width: 141px;
+    height: 5px;
+    border-bottom: 1px dashed black;
+    position: absolute;
+    top: 22px;
+    left: 36px;
+}
+
+.login {
+    width: 20px;
+    height: 25px;
+    border: 2px solid black;
+    border-left: none;
+    position: absolute;
+    top: 25px;
+    right: -50px;
+    cursor: pointer;
+}
+
+.login::after {
+    content: "";
+    width: 15px;
+    height: 0;
+    position: absolute;
+    border-bottom: 2px solid black;
+    top: 12px;
+    left: -6px;
+}
+
+.login::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border: 2px solid black;
+    border-bottom: none;
+    border-left: none;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 9px;
+    left: 1px;
+}
+
+.main-banner {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-size: cover;
+    background-image: url(../img/main-banner.jpg);
+    padding-bottom: 20%;
+    background-position: 50%;
+}
+
+.section-title {
+    padding: 5% 0 0 0;
+    margin: 0;
+    font-family:'PFAgoraSansPro-XThin', serif;
+    font-weight: bolder;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.section-title::first-letter {
+    font-size: 45px;
+}
+
+.main-banner p {
+    font-size: 24px;
+    font-family: 'PFAgoraSansPro-XThin', serif;
+    font-weight: bolder;
+    margin-top: 0.5em;
+    margin-bottom: 3em;
+}
+
+.btn {
+    width: 376px;
+    height: 65px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: none;
+    font: inherit;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'PFAgoraSansPro-XThin', serif;
+    cursor: pointer;
+}
+
+.step {
+    height: 100%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+.steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+
+.steps::before {
+    content: "";
+    width: 70%;
+    border-bottom: 5px dashed #ffd200;
+    position: absolute;
+    top: 38%;
+    z-index: -1;
+}
+.step-item {
+    position: relative;
+    height: 50px;
+    width: 140px;
+    margin: 0;
+    padding-top: 175px;
+    text-align: center
+}
+
+.step-item p {
+    padding: 0;
+    margin: 0;
+    font-family: 'PFAgoraSansPro-regular', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+
+.step-item::before {
+    content: "";
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    border: 5px solid #ffd200;
+    border-radius: 50%;
+    background: url(../ico/sprites.png) 15px 12px no-repeat;
+    background-color: white;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.step-item:nth-child(2)::before {
+    background-position: 15px -90px;
+}
+
+.step-item:nth-child(3)::before {
+    background-position: 15px -198px;
+}
+
+.step-item:nth-child(4)::before {
+    background-position: 12px -286px;
+}
+
+.advantage {
+    background-color: #f3f0e7;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.advantage .section-title {
+    text-align: center;
+}
+
+.advantage-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 5%
+}
+
+.advantage .btn {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e11a27;
+    color: white;
+    border: none;
+}
+
+.adv-item {
+    width: 267px;
+    text-align: center;
+    padding-right: 10px
+}
+
+.adv-item:last-child {
+    padding-right: 0;
+
+}
+
+
+.adv-item:first-child img {
+    padding-top: 30px;
+
+}
+
+.advantage-photo {
+    width: 267px;
+    height: 267px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.ready-solutions {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.ready-solutions .section-title {
+    margin-bottom: 30px;
+}
+
+.solution-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 3%;
+}
+
+.solution-item {
+    width: 315px;
+    height: 420px;
+
+    background-color: #ffd200;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.solution-item:last-of-type {
+    margin-right: 0;
+}
+
+.solution-item h3 {
+    margin: 20px 0 20px 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'PFAgoraSansPro-XThin', serif;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+
+}
+
+.solution-item .item-center {
+    background-color: white;
+    margin: 0 5px;
+    height: 70%;
+    padding: 10px 10px 0 10px;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.solution-item .item-center ul {
+    list-style: none;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.solution-item .item-center li {
+    padding: 0 0 15px 5px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.solution-item .item-center li:last-child {
+    padding-bottom: 0;
+}
+
+
+.solution-item .item-center li:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url("../ico/bullet.png") no-repeat;
+    left: 10px;
+}
+
+.price {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'PFAgoraSansPro-XThin', serif;
+    margin: 0;
+}
+
+.solution-item .bottom-text {
+    display:table;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.bottom-text p {
+    font-variant: small-caps;
+    display: table-cell;
+    font-size: 21px;
+    padding: 0 0 0 0;
+    margin: 0;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.solution-item:nth-of-type(2)::before {
+    content: "";
+    width: 141px;
+    height: 141px;
+    background: linear-gradient(to bottom right, transparent 40%, #ffd200 40%, #ffd200 60%, transparent 60%);
+    position: absolute;
+    transform: rotate(45deg) translate(-70%, -1%) ;
+    left: 50%;
+}
+
+.solution-item:nth-of-type(2)::after {
+    content: "bestseller";
+    height: 30px;
+    position: absolute;
+    color: #e11a27;
+    top: -15px;
+    left: 50%;
+    font: inherit;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-family: 'PFAgoraSansPro-regular', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transform: translate(-50%);
+}
+
+.testimonials {
+    padding: 3% 0;
+    margin: 0;
+    background: url(../img/testimonials-BG.jpg) no-repeat 50%;
+    background-size: cover;
+}
+
+.testimonials-container {
+    width: 50%;
+    font-family: 'PFAgoraSansPro-Regular', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+.testimonials-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+blockquote {
+    padding: 0;
+    margin: 0 0 20% 0;
+    position: relative;
+    text-align: left;
+}
+
+.testimonials-top cite {
+    padding-left: 3%;
+
+}
+
+.testimonials-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.testimonials .section-title {
+    margin: 0 0 3% 0;
+    padding: 0;
+}
+
+.testimonials-top h4 {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.testimonials-top p {
+    margin: 0;
+    font-style: normal;
+}
+
+.testimonials-container a {
+    color: inherit;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    padding-right: 20%;
+    font-size: 16px;
+}
+
+.testimonials-container a::before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-color: #31302e;
+    border-style: solid;
+    border-width: 13px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    top: 97.4%;
+    right: 0;
+}
+
+.testimonials-container a::after {
+        content: "";
+        width: 25px;
+        height: 0;
+        position: absolute;
+        border-top: 1px solid #31302e;
+        top: 97.7%;
+        right: 25px;
+}
+
+.terms-payment  {
+    padding: 4% 0 6% 0;
+    text-align: center;
+}
+
+.tp-container {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.tp-item {
+    background: linear-gradient(to bottom, #ffd200 21%, white 21%, white 23%, #f7f0e6 23%, #f7f0e6 100%);
+    font-size: 18px;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 315px;
+    background-color: #ffd200;
+    position: relative;
+    background-size: contain;
+    padding-bottom: 40px;
+}
+
+.terms-payment-title {
+    margin: 17px 0 1em 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'PFAgoraSansPro-XThin', serif;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.tp-item p {
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-bottom: 0;
+}
+
+.tp-item ul {
+    padding-left: 55px;
+    margin: 10px;
+}
+
+.tp-item li {
+    padding-left: 11px;
+    padding-bottom:10px;
+}
+
+.tp-item:last-child p:last-child {
+    color: red;
+    font-family: 'PFAgoraSansPro-regular', sans-serif;
+    font-weight: bold;
+}
+
+.tp-item span {
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+
+.terms-payment .btn {
+    background-color: #e11a27;
+    color: white;
+    border: none;
+}
+
+.page-footer {
+    background-color: #ffd200;
+    padding: 3% 0;
+    position: relative;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'PFAgoraSansPro-regular', serif;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 100px;
+}
+
+
+.footer-nav-left {
+    display: flex;
+    justify-content: space-between;
+    width: 60%
+}
+
+.footer-nav-item {
+    font: inherit;
+    border-top: 1px solid black;
+    margin-right: 10px;
+    width: 140px;
+}
+
+.footer-nav-item:last-child {
+    font-variant: small-caps;
+}
+
+.footer-nav-item ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+.footer-nav-item li {
+    cursor: pointer;
+}
+
+.footer-nav-right {
+    border-top: 1px solid black;
+    width: 140px;
+    position: relative;
+}
+
+
+.social-item {
+    display: inline-block;
+    background-image: url(../ico/sprites.png);
+    background-repeat: no-repeat;
+    background-position: 49% -437px;
+    width: 25px;
+    height: 25px;
+    vertical-align: center;
+    margin-top: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.social-item.vk{
+    background-position: 50% -487px;
+
+}
+
+.social-item.in{
+    background-position: 50% -537px;
+
+}
+
+.agent-logo {
+    position: absolute;
+    width: 85px;
+    height: 105px;
+    border: 1px solid black;
+    border-radius: 10px;
+    left: 0;
+    top: 100px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'PFAgoraSansPro-regular', sans-serif;
+}
+
+.agent-logo p {
+    margin:4px 0 6px 0;
+}
+
+.copyright {
+    text-align: center;
+    font-family: 'PFAgoraSansPro-regular', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.copyright span {
+    font-variant: small-caps;
+    letter-spacing: 1px;
+}
