@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26173e1d-8667-44b1-9bb3-ea543a35c66f" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>back</find>
+      <find>line</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/quiz</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ebac8730dae63eb102bf70b4c9803484b272a916" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/organic/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/photobook/index.html" />
+        <option value="$PROJECT_DIR$/photobook/css/style.css" />
+        <option value="$PROJECT_DIR$/quiz/index.html" />
+        <option value="$PROJECT_DIR$/quiz/script.js" />
+        <option value="$PROJECT_DIR$/Cryptaz/index.html" />
+        <option value="$PROJECT_DIR$/Cryptaz/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="99" />
+    <option name="y" value="221" />
+    <option name="width" value="1384" />
+    <option name="height" value="702" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dafnoss.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dafnoss.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/photobook" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63330/dafnoss.github.io/Cryptaz/index.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63330/dafnoss.github.io/photobook/index.html" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26173e1d-8667-44b1-9bb3-ea543a35c66f" name="Default" comment="" />
+      <created>1516130069420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516130069420</updated>
+      <workItem from="1516130070592" duration="711000" />
+      <workItem from="1516131060799" duration="145000" />
+      <workItem from="1516206080864" duration="7796000" />
+      <workItem from="1516284594707" duration="19733000" />
+      <workItem from="1516373551095" duration="188000" />
+      <workItem from="1516373765331" duration="10037000" />
+      <workItem from="1517514939507" duration="615000" />
+      <workItem from="1517575578034" duration="1691000" />
+      <workItem from="1518273380012" duration="19008000" />
+      <workItem from="1518292687565" duration="214000" />
+      <workItem from="1518313570616" duration="1263000" />
+      <workItem from="1518348096422" duration="3646000" />
+      <workItem from="1518351755845" duration="114000" />
+      <workItem from="1518351870521" duration="594000" />
+      <workItem from="1518352466736" duration="475000" />
+      <workItem from="1518353000489" duration="16000" />
+    </task>
+    <task id="LOCAL-00001" summary="123">
+      <created>1516130525583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1516130525583</updated>
+    </task>
+    <task id="LOCAL-00002" summary="123">
+      <created>1516130669352</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516130669352</updated>
+    </task>
+    <task id="LOCAL-00003" summary="123">
+      <created>1516131116885</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1516131116885</updated>
+    </task>
+    <task id="LOCAL-00004" summary="123">
+      <created>1516211408010</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516211408011</updated>
+    </task>
+    <task id="LOCAL-00005" summary="123">
+      <created>1516211440661</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1516211440661</updated>
+    </task>
+    <task id="LOCAL-00006" summary="123">
+      <created>1516214578970</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1516214578970</updated>
+    </task>
+    <task id="LOCAL-00007" summary="last">
+      <created>1516214653844</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1516214653844</updated>
+    </task>
+    <task id="LOCAL-00008" summary="last">
+      <created>1516284652698</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1516284652698</updated>
+    </task>
+    <task id="LOCAL-00009" summary="last">
+      <created>1516284954260</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1516284954260</updated>
+    </task>
+    <task id="LOCAL-00010" summary="last">
+      <created>1516285555936</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1516285555936</updated>
+    </task>
+    <task id="LOCAL-00011" summary="last">
+      <created>1516285745680</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516285745680</updated>
+    </task>
+    <task id="LOCAL-00012" summary="last">
+      <created>1516299667976</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1516299667976</updated>
+    </task>
+    <task id="LOCAL-00013" summary="last">
+      <created>1516299698505</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1516299698505</updated>
+    </task>
+    <task id="LOCAL-00014" summary="last">
+      <created>1516307134678</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1516307134679</updated>
+    </task>
+    <task id="LOCAL-00015" summary="last">
+      <created>1516307683538</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1516307683538</updated>
+    </task>
+    <task id="LOCAL-00016" summary="last">
+      <created>1516373914966</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1516373914966</updated>
+    </task>
+    <task id="LOCAL-00017" summary="last">
+      <created>1516379104368</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1516379104368</updated>
+    </task>
+    <task id="LOCAL-00018" summary="last">
+      <created>1516382974989</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1516382974989</updated>
+    </task>
+    <task id="LOCAL-00019" summary="last">
+      <created>1516383062110</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1516383062110</updated>
+    </task>
+    <task id="LOCAL-00020" summary="last">
+      <created>1516383396867</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1516383396867</updated>
+    </task>
+    <task id="LOCAL-00021" summary="last">
+      <created>1516383497624</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1516383497624</updated>
+    </task>
+    <task id="LOCAL-00022" summary="last">
+      <created>1516383679196</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1516383679196</updated>
+    </task>
+    <task id="LOCAL-00023" summary="last">
+      <created>1516383759204</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1516383759204</updated>
+    </task>
+    <task id="LOCAL-00024" summary="last">
+      <created>1516384018219</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1516384018219</updated>
+    </task>
+    <task id="LOCAL-00025" summary="last">
+      <created>1517514966298</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1517514966298</updated>
+    </task>
+    <task id="LOCAL-00026" summary="last">
+      <created>1517515177777</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1517515177777</updated>
+    </task>
+    <task id="LOCAL-00027" summary="last">
+      <created>1517575627805</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1517575627805</updated>
+    </task>
+    <task id="LOCAL-00028" summary="last">
+      <created>1518287803944</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1518287803944</updated>
+    </task>
+    <task id="LOCAL-00029" summary="last">
+      <created>1518287955197</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1518287955197</updated>
+    </task>
+    <task id="LOCAL-00030" summary="last">
+      <created>1518292549949</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1518292549950</updated>
+    </task>
+    <task id="LOCAL-00031" summary="last">
+      <created>1518313657654</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1518313657655</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Revert &quot;last&quot;&#10;&#10;This reverts commit 770cbf7">
+      <created>1518348171711</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1518348171711</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Revert &quot;last&quot;&#10;&#10;This reverts commit 770cbf7">
+      <created>1518348202643</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1518348202643</updated>
+    </task>
+    <task id="LOCAL-00034" summary="last">
+      <created>1518348738804</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1518348738804</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Revert &quot;last&quot;&#10;&#10;This reverts commit 664f4c8">
+      <created>1518348816046</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1518348816046</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Revert &quot;last&quot;&#10;&#10;This reverts commit 770cbf7">
+      <created>1518350998008</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1518350998008</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Revert &quot;last&quot;&#10;&#10;This reverts commit 770cbf7">
+      <created>1518351162498</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1518351162498</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Revert &quot;Revert &quot;last&quot;&quot;&#10;&#10;This reverts commit d5029a4">
+      <created>1518351323953</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1518351323953</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Revert &quot;last&quot;&#10;&#10;This reverts commit ebac873">
+      <created>1518352559230</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1518352559230</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="66246000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="99" y="221" width="1384" height="702" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16214234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5976027" sideWeight="0.46294937" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5976027" sideWeight="0.5370506" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.4805576" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28672987" sideWeight="0.48901623" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8184931" sideWeight="0.48241207" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889733" sideWeight="0.4968497" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                </collection>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                  <option name="MATCH_CASE" value="true" />
+                </TextFilterSettings>
+              </option>
+              <option name="COLUMN_WIDTH">
+                <map>
+                  <entry key="2" value="70" />
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123" />
+    <MESSAGE value="Revert &quot;Revert &quot;last&quot;&quot;&#10;&#10;This reverts commit 8119083" />
+    <MESSAGE value="last" />
+    <MESSAGE value="Revert &quot;last&quot;&#10;&#10;This reverts commit 664f4c8" />
+    <MESSAGE value="Revert &quot;last&quot;&#10;&#10;This reverts commit 770cbf7" />
+    <MESSAGE value="Revert &quot;Revert &quot;last&quot;&quot;&#10;&#10;This reverts commit d5029a4" />
+    <MESSAGE value="Revert &quot;last&quot;&#10;&#10;This reverts commit ebac873" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;last&quot;&#10;&#10;This reverts commit ebac873" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Cryptaz/index.html" />
+    <entry file="file://$PROJECT_DIR$/Cryptaz/style.css" />
+    <entry file="file://$PROJECT_DIR$/Cryptaz/index.html" />
+    <entry file="file://$PROJECT_DIR$/Cryptaz/style.css" />
+    <entry file="file://$PROJECT_DIR$/quiz/script.js" />
+    <entry file="file://$PROJECT_DIR$/quiz/index.html" />
+    <entry file="file://$PROJECT_DIR$/quiz/script.js" />
+    <entry file="file://$PROJECT_DIR$/quiz/index.html" />
+    <entry file="file://$PROJECT_DIR$/photobook/index.html" />
+    <entry file="file://$PROJECT_DIR$/photobook/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/photobook/ico/sprites.png" />
+    <entry file="file://$PROJECT_DIR$/photobook/index.html" />
+    <entry file="file://$PROJECT_DIR$/photobook/ico/sprites.png" />
+    <entry file="file://$PROJECT_DIR$/photobook/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/photobook/index.html" />
+    <entry file="file://$PROJECT_DIR$/photobook/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/photobook/index.html" />
+    <entry file="file://$PROJECT_DIR$/photobook/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/photobook/index.html" />
+    <entry file="file://$PROJECT_DIR$/organic/index.html" />
+    <entry file="file://$PROJECT_DIR$/organic/index.html" />
+    <entry file="file://$PROJECT_DIR$/organic/index.html" />
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/dafnoss.github.io.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/vagrant.xml" />
+    <entry file="file://$PROJECT_DIR$/photobook/img/testimonials-BG.jpg" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/photobook/fonts/example.html" />
+    <entry file="file://$PROJECT_DIR$/photobook/img/testimonials-image.jpg" />
+    <entry file="file://$PROJECT_DIR$/photobook/fonts/style.css" />
+    <entry file="file://$PROJECT_DIR$/photobook/ico/sprites.css" />
+    <entry file="file://$PROJECT_DIR$/photobook/ico/sprites.png" />
+    <entry file="file://$PROJECT_DIR$/photobook/index.html" />
+    <entry file="file://$PROJECT_DIR$/photobook/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/quiz/script.js" />
+    <entry file="file://$PROJECT_DIR$/quiz/index.html" />
+    <entry file="file://$PROJECT_DIR$/Cryptaz/index.html" />
+    <entry file="file://$PROJECT_DIR$/Cryptaz/style.css" />
+    <entry file="uml://JavaScript-modules-diagram//Users/Daffna/WebstormProjects/dafnoss.github.io/Cryptaz">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/Cryptaz</OriginalElement>
+          <nodes>
+            <node x="315.0" y="52.0">$PROJECT_DIR$/Cryptaz/img/Z.jpg</node>
+            <node x="142.0" y="0.0">$PROJECT_DIR$/Cryptaz/img/discord.png</node>
+            <node x="94.0" y="311.0">$PROJECT_DIR$/Cryptaz/img/github.png</node>
+            <node x="165.0" y="143.0">$PROJECT_DIR$/Cryptaz/index.html</node>
+            <node x="0.0" y="242.0">$PROJECT_DIR$/Cryptaz/style.css</node>
+            <node x="17.0" y="71.0">$PROJECT_DIR$/Cryptaz/img/telegram.png</node>
+            <node x="319.0" y="212.0">https://fonts.googleapis.com/css?family=Lato:300,400,700</node>
+            <node x="261.0" y="318.0">https://fonts.googleapis.com/css?family=Roboto</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="$PROJECT_DIR$/Cryptaz/index.html" target="$PROJECT_DIR$/Cryptaz/img/Z.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Cryptaz/index.html" target="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Cryptaz/index.html" target="$PROJECT_DIR$/Cryptaz/style.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Cryptaz/index.html" target="$PROJECT_DIR$/Cryptaz/img/telegram.png">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Cryptaz/index.html" target="$PROJECT_DIR$/Cryptaz/img/github.png">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Cryptaz/index.html" target="$PROJECT_DIR$/Cryptaz/img/discord.png">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Cryptaz/index.html" target="https://fonts.googleapis.com/css?family=Roboto">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.4918032786885246" x="265.0" y="293.0" />
+          <SelectedNodes>
+            <node>https://fonts.googleapis.com/css?family=Roboto</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
