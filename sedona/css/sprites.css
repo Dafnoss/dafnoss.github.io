@@ -1,0 +1,40 @@
+.icon-2, .icon-3, .twitter, .youtube, .fb, .icon-1{
+	background: url(sprites.png) no-repeat;
+}
+
+.icon-2{
+	background-position: -315px -15px ;
+	width: 64px;
+	height: 76px;
+}
+
+.icon-3{
+	background-position: -165px -15px ;
+	width: 74px;
+	height: 70px;
+}
+
+.twitter{
+	background-position: -775px -25px ;
+	width: 46px;
+	height: 48px;
+}
+
+.youtube{
+	background-position: -470px -25px ;
+	width: 46px;
+	height: 48px;
+}
+
+.fb{
+	background-position: -630px -25px ;
+	width: 46px;
+	height: 48px;
+}
+
+.icon-1{
+	background-position: -15px -15px ;
+	width: 75px;
+	height: 72px;
+}
+

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header class="page-header">
+        <div class="logo">
+            <a>
+                <img src="img/main-logo.png" alt="sedona" width="138" height="70">
+            </a>
+        </div>
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="#">Информация</a>
+            </li>
+            <li class="menu-item">
+                <a href="#">Фото и видео</a>
+            </li>
+            <li class="menu-item">
+                <a href="#">Карта штата</a>
+            </li>
+            <li class="menu-item">
+                <a href="hotels.html">Гостиницы</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="intro-top">
+                <img src="img/intro-image.jpg" alt="Sedona" align="center">
+            </div>
+            <div class="intro-bottom">
+                <h2 class="main-title">Седона-небольшой городок в Аризоне, заслуживающий большего</h2>
+                <p>Рассмотрим 5 причин, по которым Седона круче чем Гранд каньон!</p>
+            </div>
+        </section>
+        <section class="content">
+            <div class="content-row">
+                <div class="content-cell">
+                    <h2 class="main-title">Настоящий городок</h2>
+                    <span class="content-cell-number">— №1 —</span>
+                    <p>Седона — не атракцион для туристов, там течет своя жизнь</p>
+                </div>
+                <div class="content-double-cell">
+                    <img src="img/real-city.jpg" alt="open-range">
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="content-cell">
+                    <h2 class="main-title">Жилье</h2>
+                    <p>Рекомендуем пожить в настоящем
+                        мотеле, все как в кино</p>
+                </div>
+                <div class="content-cell">
+                    <h2 class="main-title">Еда</h2>
+                    <p>Всегда заказывайте фирменный бургер,
+                        вы не разочаруетесь</p>
+                </div>
+                <div class="content-cell">
+                    <h2 class="main-title">Сувениры</h2>
+                    <p>Не только китайского, но и местного
+                        производства!</p>
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="content-double-cell">
+                    <img src="img/devils-bridge.jpg" alt="мост-дьявола">
+                </div>
+                <div class="content-cell">
+                    <h2 class="main-title">Там есть мост дьявола</h2>
+                    <span class="content-cell-number">— №2 —</span>
+                    <p>Да, по нему можно пройти если конечно вы осмелитесь</p>
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="content-cell">
+                    <h2 class="main-title">Небольшая площадь</h2>
+                    <span class="content-cell-number">— №3 —</span>
+                    <p>Все достопримечательности находятся очень близко</p>
+                </div>
+                <div class="content-cell">
+                    <h2 class="main-title">Красивая дорога</h2>
+                    <span class="content-cell-number">— №4 —</span>
+                    <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                </div>
+                <div class="content-cell">
+                    <h2 class="main-title">Мало туристов</h2>
+                    <span class="content-cell-number">— №5 —</span>
+                    <p>Большинство едет в гранд каньон и толпится там</p>
+                </div>
+            </div>
+        </section>
+        <section class="search">
+            <div class="search-main">
+                <h2 class="search-title">Заинтересовались?</h2>
+                <p>Укажите предполагаемые даты поездки <br> и мы покажем вам лучшие
+                    предложения гостиниц в Седоне</p>
+                <a class="btn main-title">
+                    <p>Поиск гостиницы в Седоне</p>
+                </a>
+            </div>
+            <div class="search-form">
+                <div class="input form">
+                    <form method="post" action="http://htmlacademy.ru">
+                        <label for="arrival">Дата Заезда</label>
+                        <input type="text" id="arrival" name="arrival" value="24 апреля 2017">
+                        <label for="departure">Дата выезда</label>
+                        <input type="text" id="departure" name="departure" value="4 июля 2017">
+                        <label for="adults">Взрослые</label>
+                        <input type="number" id="adults" name="adults" value="2">
+                        <label for="children">Дети</label>
+                        <input type="number" id="children" name="children" value="0">
+                        <button class="btn" type="submit">Найти</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+        <section class="map">
+            <img src="img/map.jpg" alt="map">
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="footer-item">
+            <a href="#">#visitSedona</a>
+        </div>
+        <div class="footer-item">
+            <ul class="socials">
+                <li class="social tw">
+                    <a href="#">Twitter</a>
+                </li>
+                <li class="social fb">
+                    <a href="#">FaceBook</a>
+                </li>
+                <li class="social yt">
+                    <a href="#">Youtube</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-item">
+            <span class="footer-logo-pre">website by</span>
+            <a href="https://htmlacademy.ru/intensive/htmlcss" class="footer-logo-after logo-footer">
+                <img src="img/academy-logo.jpg" alt="htmlAcademy">
+            </a>
+        </div>
+    </footer>
+</div>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
