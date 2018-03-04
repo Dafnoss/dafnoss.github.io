@@ -1,5 +1,5 @@
 body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", sans-serif, arial;
     color: #333333;
     text-transform: uppercase;
     font-size: 14px;
@@ -7,6 +7,10 @@ body {
     text-align: center;
     margin: 0;
     background-color: #f2f2f2;
+}
+
+.hide {
+    display: none;
 }
 
 .container {
@@ -24,7 +28,7 @@ body {
     line-height: 21px;
 }
 
-header {
+.page-header {
     width: 100%;
     position: relative;
 }
@@ -35,11 +39,12 @@ header {
     line-height: 26px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0;
     align-items: center;
     height: 55px;
-    padding: 0;
+    padding: 0 6% 0 6%;
+    box-sizing: border-box;
 }
 
 .menu a {
@@ -51,13 +56,8 @@ header {
     width: 20%;
 }
 
-.menu-item:first-child {
-    margin-left: 6%;
-}
-
-.menu-item:last-child {
-    margin-right: 6%;
-
+.menu-item:nth-child(2){
+    margin-right: 11%;
 }
 
 .menu-item:first-child,
@@ -121,14 +121,15 @@ header {
 
 .content-cell {
     width: 33%;
-    height: 166px ;
-    padding: 50px 6% 40px 6%;
+    padding: 50px 4% 60px 4%;
     margin: 0;
+
 }
 
 .content-row:first-child .content-cell,
 .content-row:nth-child(3) .content-cell {
-    width: 27%;
+    width: 26%;
+    background-color: #81b3d2;
 }
 
 .content-row:nth-child(2),
@@ -139,32 +140,31 @@ header {
     padding-right: 6%;
 }
 
-.content-row:nth-child(2) {
-    height: 330px;
-}
-
 
 .content-row:nth-child(2) .content-cell {
     height: auto;
-    padding: 160px 0 0 0;
+    padding: 160px 0 72px 0;
     margin: 0;
     position: relative;
 }
 
 
 .content-double-cell {
-    width: 66%;
+    width: 67%;
     overflow: hidden;
-    height: 256px;
+    position: relative;
 }
 
-.content-row:first-child .content-cell .main-title,
- .content-row:nth-child(3) .content-cell .main-title {
+
+
+.content-row:first-child .main-title,
+ .content-row:nth-child(3) .main-title {
      color: white;
      padding: 0;
      margin:0 auto 0 auto;
      width: 150px;
      text-align: center;
+    overflow: hidden;
  }
 
 
@@ -180,7 +180,14 @@ header {
 
 }
 
-.content-row:nth-child(2) .content-cell p {
+.content-double-cell img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-row:nth-child(2) p {
     padding: 0 30px 0 30px;;
     margin: 0;
 
@@ -191,15 +198,14 @@ header {
     content: "";
     width: 90px;
     height: 90px;
-    background-color: red;
     top: 70px;
     left: 50%;
     transform: translate(-50%);
-    background: url("../img/sprites.png") -7px 2px no-repeat;
+    background: url("../img/sprites.png") -7px 0 no-repeat;
 }
 
 .content-row:nth-child(2) .content-cell:nth-child(2):before {
-    background-position: -157px 2px;
+    background-position: -157px 0;
 }
 
 .content-row:nth-child(2) .content-cell:last-child:before {
@@ -208,8 +214,9 @@ header {
 
 .content-row:last-child {
     background-color: #eeeeee;
-    height: 256px;
     align-items: center;
+    padding-top: 47px ;
+    padding-bottom: 47px;
 
 }
 
@@ -231,13 +238,9 @@ header {
     padding: 0 35px 0 35px;
 }
 
-.search-form {
-    display: none;
-}
-
 .search {
-    height: 231px;
     padding: 60px 6% 0 6%;
+    position: relative;
 }
 
 .search-main .search-title {
@@ -263,10 +266,11 @@ header {
      line-height: 26px;
      width: 568px;
      height: 86px;
-     margin: 49px auto 0 auto;
+     margin: 47px auto 0 auto;
+    cursor: pointer;
  }
 
-.search-main .btn p {
+.search-main .btn-item {
     display: table-cell;
     vertical-align: middle;
     position: relative;
@@ -284,16 +288,16 @@ header {
     transform: translate(-50%);
 }
 .page-footer {
-    padding: 0 6% 0 6%;
+    padding: 30px 6% 30px 6%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 120px;
 }
 
+
 .footer-item:first-child {
-    padding-top: 10px;
+    padding-top: 5px;
 
 }
 
@@ -312,33 +316,34 @@ header {
 
 .social {
     display: inline-block;
-
-    font-size: 0px;
+    font-size: 0;
     width: 46px;
     background-color: #81b3d2;
     height: 48px;
-    margin-left: 1px;
+    margin-bottom: 5px;
 }
 
 .social a {
     display: block;
     width: 46px;
     height: 48px;
-    background: url("../img/sprites.png") -776px -26px no-repeat;
+    background: url("../img/sprites.png") -426px -24px no-repeat;
 }
 
-.social.fb a {
-    background-position: -630px -26px
+.fb a {
+
+    background-position: -527px -24px
 }
 
-.social.yt a {
-    background-position: -470px -26px
+.yt a {
+    background-position: -627px -26px
 }
 
 .footer-item:last-child {
     text-align: center;
     vertical-align: middle;
     font-size: 14px;
+    align-self: flex-end;
 }
 
 .footer-logo-pre,
@@ -350,6 +355,251 @@ header {
 .footer-logo-pre {
     padding: 0 3px 5px 0;
 }
+
+.search-form {
+    box-sizing: border-box;
+    z-index: 1;
+    position: absolute;
+    width: 568px;
+    background-color: white;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%);
+    padding: 55px;
+    font-weight: bold;
+    color: black;
+}
+
+.form-item {
+    margin-bottom: 30px;
+
+}
+
+.form-item::after {
+    display: table;
+    content: "";
+    clear: both;
+
+}
+
+.form-item input {
+    width: 345px;
+    height: 38px;
+    box-sizing: border-box;
+    float: right;
+    user-focus-pointer: none;
+    user-select: none;
+    font: inherit;
+    text-transform: uppercase;
+    padding: 0 0 0 10px;
+    background-color: #f2f2f2;
+    border: none;
+}
+
+.form-item input:focus{
+    outline: none;
+}
+
+
+.form-item label {
+    display: inline-block;
+    text-align: left;
+    float: left;
+    width: 113px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    padding-top: 9px;
+
+}
+
+.form-item:nth-child(3) input[name = "adults"] {
+    float: left;
+    width: 114px;
+    text-align: center;
+}
+
+.form-item:nth-child(3) input[name = "children"] {
+    float: right;
+    width: 114px;
+    text-align: center;
+}
+
+.form-item:nth-child(3) label[for="children"] {
+    padding-left: 40px;
+    float: right;
+}
+
+.input-form .btn {
+    margin-top: 24px;
+    width: 458px;
+    height: 58px;
+    background-color: #81b3d2;
+    color: white;
+    font: inherit;
+    font-size: 21px;
+    text-transform: uppercase;
+    line-height: 26px;
+    border: none;
+    cursor: pointer;
+}
+
+.input-form .btn:focus{
+    outline: none;
+}
+
+/*End of first page*/
+
+.filters {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
+    background: url("../img/hotels-background.jpg") no-repeat center;
+}
+
+
+.filters-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 25px 6% 25px 6%
+}
+
+fieldset ul {
+    list-style: none;
+    padding-right: 20px;
+    margin: 0;
+}
+
+fieldset li {
+    margin-top: 25px;
+}
+
+.infrastructure,
+.prop-type,
+.daily-price {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: left;
+}
+
+.infrastructure input,
+.prop-type input {
+    display: none;
+}
+
+.prop-type {
+    margin-right: auto;
+    margin-left: 11%;
+}
+
+fieldset .main-title {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+.daily-price {
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.price-range {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid white;
+    border-radius: 2px;
+    position: relative;
+    margin: 9px 0 9px 0;
+}
+
+.price-range p {
+    margin: 5px 0 5px 0;
+}
+
+.price-range p:first-child {
+    padding-left: 15px ;
+}
+
+.price-range::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 20px;
+    border-left: 2px solid #ffffff;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+input[type = "range"] {
+    display: block;
+    box-sizing: border-box;
+    width: 99%;
+}
+
+.filter-btn {
+    display: block;
+    width: 137px;
+    height: 35px;
+    font: inherit;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 2px;
+    margin: 30px auto 0 auto;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.check-box {
+    position: relative;
+}
+
+.check-box label::after {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 2px;
+    top:-2px;
+    left: -37px;
+}
+
+input:checked ~ label::before {
+    content: "";
+    width: 11px;
+    height: 20px;
+    position: absolute;
+    z-index: 20;
+    box-sizing: border-box;
+    border-bottom: 4px solid #ffffff;
+    border-right: 4px solid #ffffff;
+    border-radius: 1px;
+    left: -29px;
+    top:-6px;
+    transform: rotate(45deg);
+    filter: drop-shadow(0px -0px 1px #4b789a);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

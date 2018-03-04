@@ -47,7 +47,7 @@
                     <p>Седона — не атракцион для туристов, там течет своя жизнь</p>
                 </div>
                 <div class="content-double-cell">
-                    <img src="img/real-city.jpg" alt="open-range">
+                    <img src="img/real-city-alternate.jpg" alt="open-range">
                 </div>
             </div>
             <div class="content-row">
@@ -69,7 +69,7 @@
             </div>
             <div class="content-row">
                 <div class="content-double-cell">
-                    <img src="img/devils-bridge.jpg" alt="мост-дьявола">
+                    <img src="img/devils-bridge-alternate.jpg" alt="мост-дьявола">
                 </div>
                 <div class="content-cell">
                     <h2 class="main-title">Там есть мост дьявола</h2>
@@ -101,24 +101,29 @@
                 <p>Укажите предполагаемые даты поездки <br> и мы покажем вам лучшие
                     предложения гостиниц в Седоне</p>
                 <a class="btn main-title">
-                    <p>Поиск гостиницы в Седоне</p>
+                    <p class="btn-item">Поиск гостиницы в Седоне</p>
                 </a>
             </div>
             <div class="search-form">
-                <div class="input form">
+                <div class="input-form">
                     <form method="post" action="http://htmlacademy.ru">
-                        <label for="arrival">Дата Заезда</label>
-                        <input type="text" id="arrival" name="arrival" value="24 апреля 2017">
-                        <label for="departure">Дата выезда</label>
-                        <input type="text" id="departure" name="departure" value="4 июля 2017">
-                        <label for="adults">Взрослые</label>
-                        <input type="number" id="adults" name="adults" value="2">
-                        <label for="children">Дети</label>
-                        <input type="number" id="children" name="children" value="0">
+                        <div class="form-item">
+                            <label for="arrival">Дата Заезда:</label>
+                            <input type="text" id="arrival" name="arrival" value="24 апреля 2017">
+                        </div>
+                        <div class="form-item">
+                            <label for="departure">Дата выезда:</label>
+                            <input type="text" id="departure" name="departure" value="4 июля 2017">
+                        </div>
+                        <div class="form-item">
+                            <label for="adults">Взрослые:</label>
+                            <input type="number" id="adults" name="adults" value="2">
+                            <input type="number" id="children" name="children" value="0">
+                            <label for="children">Дети:</label>
+                        </div>
                         <button class="btn" type="submit">Найти</button>
                     </form>
                 </div>
-
             </div>
         </section>
         <section class="map">
@@ -145,7 +150,7 @@
         <div class="footer-item">
             <span class="footer-logo-pre">website by</span>
             <a href="https://htmlacademy.ru/intensive/htmlcss" class="footer-logo-after logo-footer">
-                <img src="img/academy-logo.jpg" alt="htmlAcademy">
+                <img src="img/academy-logo.jpg" alt="htmlAcademy" width="115" height="41">
             </a>
         </div>
     </footer>

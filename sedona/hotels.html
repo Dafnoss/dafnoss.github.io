@@ -31,24 +31,40 @@
     </header>
     <main>
         <section class="filters">
-            <form method="post" action="http://htmlacademy.ru">
+            <form method="post" action="http://htmlacademy.ru" class="filters-form">
                 <fieldset class="infrastructure">
                     <legend class="main-title">Инфраструктура:</legend>
-                    <input type="checkbox" id="pool" name="pool" checked>
-                    <label for="pool">Бассейн</label>
-                    <input type="checkbox" id="parking" name="parking">
-                    <label for="parking">Парковка</label>
-                    <input type="checkbox" id="wifi" name="wifi">
-                    <label for="wifi">Wi-Fi</label>
+                    <ul class="infrastructure-items">
+                        <li  class="check-box">
+                            <input type="checkbox" id="pool" name="pool" checked>
+                            <label for="pool">Бассейн</label>
+                        </li>
+                        <li class="check-box">
+                            <input type="checkbox" id="parking" name="parking">
+                            <label for="parking">Парковка</label>
+                        </li>
+                        <li class="check-box">
+                            <input type="checkbox" id="wifi" name="wifi">
+                            <label for="wifi">Wi-Fi</label>
+                        </li>
+                    </ul>
                 </fieldset>
                 <fieldset class="prop-type">
                     <legend class="main-title">Тип жилья:</legend>
-                    <input type="checkbox" id="hotel" name="hotel" checked>
-                    <label for="hotel">Гостиница</label>
-                    <input type="checkbox" id="motel" name="motel" checked>
-                    <label for="motel">Мотель</label>
-                    <input type="checkbox" id="apartments" name="apartments" checked>
-                    <label for="apartments">Апартаменты</label>
+                    <ul class="prop-type-items">
+                        <li class="check-box">
+                            <input type="checkbox" id="hotel" name="hotel" checked>
+                            <label for="hotel">Гостиница</label>
+                        </li>
+                        <li class="check-box">
+                            <input type="checkbox" id="motel" name="motel" checked>
+                            <label for="motel">Мотель</label>
+                        </li>
+                        <li class="check-box">
+                            <input type="checkbox" id="apartments" name="apartments" checked>
+                            <label for="apartments">Апартаменты</label>
+                        </li>
+                        </ul>
                 </fieldset>
                 <fieldset class="daily-price">
                     <legend class="main-title">Стоимость в сутки (P):</legend>
@@ -182,27 +198,27 @@
             </article>
         </section>
     </main>
-    <footer>
+    <footer class="page-footer">
         <div class="footer-item">
             <a href="#">#visitSedona</a>
         </div>
         <div class="footer-item">
             <ul class="socials">
                 <li class="social tw">
-                    <a href="#"></a>
+                    <a href="#">Twitter</a>
                 </li>
                 <li class="social fb">
-                    <a href="#"></a>
+                    <a href="#">FaceBook</a>
                 </li>
-                <li class="social vk">
-                    <a href="#"></a>
+                <li class="social yt">
+                    <a href="#">Youtube</a>
                 </li>
             </ul>
         </div>
         <div class="footer-item">
-            <span>website by</span>
-            <a href="https://htmlacademy.ru/intensive/htmlcss" class="logo-footer">
-                <img src="img/academy-logo.jpg" alt="htmlAcademy">
+            <span class="footer-logo-pre">website by</span>
+            <a href="https://htmlacademy.ru/intensive/htmlcss" class="footer-logo-after logo-footer">
+                <img src="img/academy-logo.jpg" alt="htmlAcademy" width="115" height="41">
             </a>
         </div>
     </footer>
