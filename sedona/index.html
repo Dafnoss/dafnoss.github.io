@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -32,7 +33,7 @@
     <main>
         <section class="intro">
             <div class="intro-top">
-                <img src="img/intro-image.jpg" alt="Sedona" align="center">
+                <img src="img/intro-image.jpg" alt="Sedona" width="1200" height="508">
             </div>
             <div class="intro-bottom">
                 <h2 class="main-title">Седона-небольшой городок в Аризоне, заслуживающий большего</h2>
@@ -47,7 +48,7 @@
                     <p>Седона — не атракцион для туристов, там течет своя жизнь</p>
                 </div>
                 <div class="content-double-cell">
-                    <img src="img/real-city-alternate.jpg" alt="open-range">
+                    <img src="img/real-city-alternate.jpg" alt="open-range" width="800" height="401" >
                 </div>
             </div>
             <div class="content-row">
@@ -69,7 +70,7 @@
             </div>
             <div class="content-row">
                 <div class="content-double-cell">
-                    <img src="img/devils-bridge-alternate.jpg" alt="мост-дьявола">
+                    <img src="img/devils-bridge-alternate.jpg" alt="мост-дьявола" width="800" height="401">
                 </div>
                 <div class="content-cell">
                     <h2 class="main-title">Там есть мост дьявола</h2>
@@ -100,7 +101,7 @@
                 <h2 class="search-title">Заинтересовались?</h2>
                 <p>Укажите предполагаемые даты поездки <br> и мы покажем вам лучшие
                     предложения гостиниц в Седоне</p>
-                <a class="btn main-title">
+                <a class="btn main-title" onclick="event.preventDefault()" href="form.html">
                     <p class="btn-item">Поиск гостиницы в Седоне</p>
                 </a>
             </div>
@@ -110,24 +111,34 @@
                         <div class="form-item">
                             <label for="arrival">Дата Заезда:</label>
                             <input type="text" id="arrival" name="arrival" value="24 апреля 2017">
+                            <span class="input-date">
+                                <img src="img/calendar.svg" alt="calendar" width="22" height="22">
+                            </span>
                         </div>
                         <div class="form-item">
                             <label for="departure">Дата выезда:</label>
                             <input type="text" id="departure" name="departure" value="4 июля 2017">
+                            <span class="input-date">
+                                <img src="img/calendar.svg" alt="calendar" width="22" height="22">
+                            </span>
                         </div>
                         <div class="form-item">
                             <label for="adults">Взрослые:</label>
-                            <input type="number" id="adults" name="adults" value="2">
-                            <input type="number" id="children" name="children" value="0">
+                            <input type="text" id="adults" name="adults" value="2">
+                            <span class="form-item-btn add-btn-adult" aria-label="Больше" tabindex="0">+</span>
+                            <span class="form-item-btn remove-btn-adult" aria-label="Меньше" tabindex="0">–</span>
+                            <input type="text" id="children" name="children" value="0">
                             <label for="children">Дети:</label>
+                            <span class="add-btn-child" aria-label="Больше" tabindex="0">+</span>
+                            <span class="remove-btn-child" aria-label="Меньше" tabindex="0">–</span>
                         </div>
                         <button class="btn" type="submit">Найти</button>
                     </form>
                 </div>
             </div>
         </section>
-        <section class="map">
-            <img src="img/map.jpg" alt="map">
+        <section class="map" aria-label="США, штат Аризона, г. Седона">
+            <iframe  style="border:0" tabindex="-1" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJDbBC-TKhLYcR_Y5s-iPFSFU&key=AIzaSyDmKjKfZH4PTFxQEnVAA37YY4gNd0SzIjI&zoom=9&center=34.861126,-111.771797"></iframe>
         </section>
     </main>
     <footer class="page-footer">
@@ -150,7 +161,7 @@
         <div class="footer-item">
             <span class="footer-logo-pre">website by</span>
             <a href="https://htmlacademy.ru/intensive/htmlcss" class="footer-logo-after logo-footer">
-                <img src="img/academy-logo.jpg" alt="htmlAcademy" width="115" height="41">
+                <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="htmlAcademy">
             </a>
         </div>
     </footer>

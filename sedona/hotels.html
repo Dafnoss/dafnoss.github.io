@@ -11,7 +11,7 @@
     <header class="page-header">
         <div class="logo">
             <a href="index.html">
-                <img src="img/main-logo.png" alt="sedona">
+                <img src="img/main-logo.png" alt="sedona" width="138" height="70">
             </a>
         </div>
         <ul class="menu">
@@ -24,8 +24,8 @@
             <li class="menu-item">
                 <a href="#">Карта штата</a>
             </li>
-            <li class="menu-item">
-                <a>Гостиницы</a>
+            <li class="menu-item active">
+                <a class="active">Гостиницы</a>
             </li>
         </ul>
     </header>
@@ -37,15 +37,15 @@
                     <ul class="infrastructure-items">
                         <li  class="check-box">
                             <input type="checkbox" id="pool" name="pool" checked>
-                            <label for="pool">Бассейн</label>
+                            <label for="pool" tabindex="0">Бассейн</label>
                         </li>
                         <li class="check-box">
                             <input type="checkbox" id="parking" name="parking">
-                            <label for="parking">Парковка</label>
+                            <label for="parking" tabindex="0">Парковка</label>
                         </li>
                         <li class="check-box">
                             <input type="checkbox" id="wifi" name="wifi">
-                            <label for="wifi">Wi-Fi</label>
+                            <label for="wifi"  tabindex="0">Wi-Fi</label>
                         </li>
                     </ul>
                 </fieldset>
@@ -54,27 +54,33 @@
                     <ul class="prop-type-items">
                         <li class="check-box">
                             <input type="checkbox" id="hotel" name="hotel" checked>
-                            <label for="hotel">Гостиница</label>
+                            <label for="hotel"  tabindex="0">Гостиница</label>
                         </li>
                         <li class="check-box">
                             <input type="checkbox" id="motel" name="motel" checked>
-                            <label for="motel">Мотель</label>
+                            <label for="motel"  tabindex="0">Мотель</label>
                         </li>
                         <li class="check-box">
                             <input type="checkbox" id="apartments" name="apartments" checked>
-                            <label for="apartments">Апартаменты</label>
+                            <label for="apartments"  tabindex="0">Апартаменты</label>
                         </li>
                         </ul>
                 </fieldset>
                 <fieldset class="daily-price">
                     <legend class="main-title">Стоимость в сутки (P):</legend>
                     <div class="price-range">
-                        <p class="start-price">От 0</p>
-                        <p class="end-price">До 3000</p>
+                        <p class="start-price">
+                            <label for="start-price">От</label>
+                            <input type="text" id="start-price" value="0">
+                        </p>
+                        <p class="end-price">
+                            <label for="end-price">До</label>
+                            <input type="text" id="end-price" value="3000">
+                        </p>
                     </div>
                     <label for="price"></label>
-                    <input type="range" name="price" id="price" min="0" max="3000" value="2000" step="100">
-                    <button class="filter-btn" type="submit">Показать</button>
+                    <input type="range" class="price-range-input" name="price" id="price" min="0" max="3000" data-values="1 2000" step="100">
+                    <button class="filter-btn" type="submit" onclick="event.preventDefault()" href="result.html">Показать</button>
                 </fieldset>
             </form>
         </section>
@@ -82,8 +88,6 @@
             <div class="sort-menu">
                 <div class="sort-menu-item">
                     <h2 class="main-title">Найдено:3</h2>
-                </div>
-                <div class="sort-menu-item">
                     <span>Сортировка:</span>
                     <ul class="sort-links">
                         <li class="sort-link-item">
@@ -99,16 +103,18 @@
                 </div>
                 <div class="sort-menu-item">
                     <ul class="side-sort-items">
-                        <li class="side-sort-item">
+                        <li class="side-sort-item" tabindex="0">
+                            От большего рейтинга к меньшему
                         </li>
-                        <li class="side-sort-item">
+                        <li class="side-sort-item active-item" tabindex="0">
+                            От меньшего рейтинга к большему
                         </li>
                     </ul>
                 </div>
             </div>
             <article class="result-item">
                 <div class="prop-image">
-                    <img src="img/amara.jpg" alt="amara-resort">
+                    <img src="img/amara.jpg" alt="amara-resort" width="135" height="90">
                 </div>
                 <div class="prop-description">
                     <h1 class="main-title">
@@ -125,20 +131,16 @@
                 </div>
                 <div class="prop-rating">
                     <div class="rating-stars">
-                        <div class="rating-star-item"></div>
-                        <div class="rating-star-item"></div>
-                        <div class="rating-star-item"></div>
-                        <div class="rating-star-item"></div>
-                        <div class="rating-star-item"></div>
+                        <div class="rating-star-item" aria-label="Четрые звезды">&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="rating-text">
-                        <span>Рейтинг 8,5</span>
+                        <span>Рейтинг: 8,5</span>
                     </div>
                 </div>
             </article>
             <article class="result-item">
                 <div class="prop-image">
-                    <img src="img/desert.jpg" alt="desert-quail">
+                    <img src="img/desert.jpg" alt="desert-quail" width="135" height="90">
                 </div>
                 <div class="prop-description">
                     <h1 class="main-title">
@@ -155,20 +157,16 @@
                 </div>
                 <div class="prop-rating">
                     <div class="rating-stars">
-                        <div class="rating-star-item"></div>
-                        <div class="rating-star-item"></div>
-                        <div class="rating-star-item"></div>
-                        <div class="rating-star-item"></div>
-                        <div class="rating-star-item"></div>
+                        <div class="rating-star-item" aria-label="Три звезды">&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="rating-text">
-                        <span>Рейтинг 8,5</span>
+                        <span>Рейтинг: 8,9</span>
                     </div>
                 </div>
             </article>
             <article class="result-item">
                 <div class="prop-image">
-                    <img src="img/villas.jpg" alt="Villas-at-Poco">
+                    <img src="img/villas.jpg" alt="Villas-at-Poco" width="135" height="90">
                 </div>
                 <div class="prop-description">
                     <h1 class="main-title">
@@ -185,14 +183,10 @@
                 </div>
                 <div class="prop-rating">
                     <div class="rating-stars">
-                        <div class="rating-star-item"></div>
-                        <div class="rating-star-item"></div>
-                        <div class="rating-star-item"></div>
-                        <div class="rating-star-item"></div>
-                        <div class="rating-star-item"></div>
+                        <div class="rating-star-item" aria-label="Две звезды">&#9733;&#9733;</div>
                     </div>
                     <div class="rating-text">
-                        <span>Рейтинг 8,5</span>
+                        <span>Рейтинг: 9,2</span>
                     </div>
                 </div>
             </article>
@@ -218,7 +212,7 @@
         <div class="footer-item">
             <span class="footer-logo-pre">website by</span>
             <a href="https://htmlacademy.ru/intensive/htmlcss" class="footer-logo-after logo-footer">
-                <img src="img/academy-logo.jpg" alt="htmlAcademy" width="115" height="41">
+                <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="htmlAcademy">
             </a>
         </div>
     </footer>
