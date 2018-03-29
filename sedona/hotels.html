@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -31,7 +32,7 @@
     </header>
     <main>
         <section class="filters">
-            <form method="post" action="http://htmlacademy.ru" class="filters-form">
+            <form action="https://echo.htmlacademy.ru" method="get" class="filters-form">
                 <fieldset class="infrastructure">
                     <legend class="main-title">Инфраструктура:</legend>
                     <ul class="infrastructure-items">
@@ -67,27 +68,26 @@
                         </ul>
                 </fieldset>
                 <fieldset class="daily-price">
-                    <legend class="main-title">Стоимость в сутки (P):</legend>
-                    <div class="price-range">
-                        <p class="start-price">
-                            <label for="start-price">От</label>
-                            <input type="text" id="start-price" value="0">
-                        </p>
-                        <p class="end-price">
-                            <label for="end-price">До</label>
-                            <input type="text" id="end-price" value="3000">
-                        </p>
+                    <legend class="filter-range-title">Стоимость в сутки (р):</legend>
+                    <div class="price-controls">
+                        <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                        <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
                     </div>
-                    <label for="price"></label>
-                    <input type="range" class="price-range-input" name="price" id="price" min="0" max="3000" data-values="1 2000" step="100">
-                    <button class="filter-btn" type="submit" onclick="event.preventDefault()" href="result.html">Показать</button>
+                    <div class="range-controls">
+                        <div class="scale">
+                            <div class="bar"></div>
+                        </div>
+                        <div class="range-toggle range-toggle-min"></div>
+                        <div class="range-toggle range-toggle-max"></div>
+                    </div>
+                    <button class="btn-transparent" type="submit">Показать</button>
                 </fieldset>
             </form>
         </section>
         <section class="filter-result">
             <div class="sort-menu">
                 <div class="sort-menu-item">
-                    <h2 class="main-title">Найдено:3</h2>
+                    <h2 class="main-title">Найдено: 3</h2>
                     <span>Сортировка:</span>
                     <ul class="sort-links">
                         <li class="sort-link-item">
@@ -121,8 +121,8 @@
                         <a href="#">Amara Resort &amp; Spa</a>
                     </h1>
                     <div class="prop-description-text">
-                        <span>Гостиница</span>
-                        <span>От 4000 Р.</span>
+                        <span class="prop-description-text-item">Гостиница</span>
+                        <span class="prop-description-text-item">От 4000 Р.</span>
                     </div>
                     <div class="prop-buttons">
                         <a href="#" class="btn-more" name="more">Подробнее</a>
@@ -131,7 +131,7 @@
                 </div>
                 <div class="prop-rating">
                     <div class="rating-stars">
-                        <div class="rating-star-item" aria-label="Четрые звезды">&#9733;&#9733;&#9733;&#9733;</div>
+                        <div class="rating-star-item" aria-label="Четрые звезды"></div>
                     </div>
                     <div class="rating-text">
                         <span>Рейтинг: 8,5</span>
@@ -147,8 +147,8 @@
                         <a href="#">Desert quail inn</a>
                     </h1>
                     <div class="prop-description-text">
-                        <span>Мотель</span>
-                        <span>От 3000 Р.</span>
+                        <span class="prop-description-text-item">Мотель</span>
+                        <span class="prop-description-text-item">От 3000 Р.</span>
                     </div>
                     <div class="prop-buttons">
                         <a href="#" class="btn-more" name="more">Подробнее</a>
@@ -157,7 +157,7 @@
                 </div>
                 <div class="prop-rating">
                     <div class="rating-stars">
-                        <div class="rating-star-item" aria-label="Три звезды">&#9733;&#9733;&#9733;</div>
+                        <div class="rating-star-item" aria-label="Три звезды"></div>
                     </div>
                     <div class="rating-text">
                         <span>Рейтинг: 8,9</span>
@@ -166,15 +166,15 @@
             </article>
             <article class="result-item">
                 <div class="prop-image">
-                    <img src="img/villas.jpg" alt="Villas-at-Poco" width="135" height="90">
+                    <img src="img/villas.jpg" alt="villas-at-poco" width="135" height="90">
                 </div>
                 <div class="prop-description">
                     <h1 class="main-title">
                         <a href="#">Villas at Poco Diablo</a>
                     </h1>
                     <div class="prop-description-text">
-                        <span>Апартаменты</span>
-                        <span>От 2000 Р.</span>
+                        <span class="prop-description-text-item">Апартаменты</span>
+                        <span class="prop-description-text-item">От 2000 Р.</span>
                     </div>
                     <div class="prop-buttons">
                         <a href="#" class="btn-more" name="more">Подробнее</a>
@@ -183,7 +183,7 @@
                 </div>
                 <div class="prop-rating">
                     <div class="rating-stars">
-                        <div class="rating-star-item" aria-label="Две звезды">&#9733;&#9733;</div>
+                        <div class="rating-star-item" aria-label="Две звезды"></div>
                     </div>
                     <div class="rating-text">
                         <span>Рейтинг: 9,2</span>
@@ -217,6 +217,6 @@
         </div>
     </footer>
 </div>
-<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/scripts.min.js"></script>
 </body>
 </html>

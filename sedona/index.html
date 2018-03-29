@@ -2,17 +2,17 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седоа</title>
+    <title>HTML Academy: Седона</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
     <header class="page-header">
         <div class="logo">
             <a>
-                <img src="img/main-logo.png" alt="sedona" width="138" height="70">
+                <img src="img/main-logo.png" alt="Sedona" width="138" height="70">
             </a>
         </div>
         <ul class="menu">
@@ -36,7 +36,7 @@
                 <img src="img/intro-image.jpg" alt="Sedona" width="1200" height="508">
             </div>
             <div class="intro-bottom">
-                <h2 class="main-title">Седона-небольшой городок в Аризоне, заслуживающий большего</h2>
+                <h2 class="main-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
                 <p>Рассмотрим 5 причин, по которым Седона круче чем Гранд каньон!</p>
             </div>
         </section>
@@ -73,7 +73,7 @@
                     <img src="img/devils-bridge-alternate.jpg" alt="мост-дьявола" width="800" height="401">
                 </div>
                 <div class="content-cell">
-                    <h2 class="main-title">Там есть мост дьявола</h2>
+                    <h2 class="main-title">Там есть<br> мост дьявола</h2>
                     <span class="content-cell-number">— №2 —</span>
                     <p>Да, по нему можно пройти если конечно вы осмелитесь</p>
                 </div>
@@ -101,24 +101,24 @@
                 <h2 class="search-title">Заинтересовались?</h2>
                 <p>Укажите предполагаемые даты поездки <br> и мы покажем вам лучшие
                     предложения гостиниц в Седоне</p>
-                <a class="btn main-title" onclick="event.preventDefault()" href="form.html">
+                <a class="btn main-title" href="form.html">
                     <p class="btn-item">Поиск гостиницы в Седоне</p>
                 </a>
             </div>
             <div class="search-form">
                 <div class="input-form">
-                    <form method="post" action="http://htmlacademy.ru">
+                    <form action="https://echo.htmlacademy.ru" method="get">
                         <div class="form-item">
                             <label for="arrival">Дата Заезда:</label>
                             <input type="text" id="arrival" name="arrival" value="24 апреля 2017">
-                            <span class="input-date">
+                            <span class="input-date" tabindex="0">
                                 <img src="img/calendar.svg" alt="calendar" width="22" height="22">
                             </span>
                         </div>
                         <div class="form-item">
                             <label for="departure">Дата выезда:</label>
                             <input type="text" id="departure" name="departure" value="4 июля 2017">
-                            <span class="input-date">
+                            <span class="input-date" tabindex="0">
                                 <img src="img/calendar.svg" alt="calendar" width="22" height="22">
                             </span>
                         </div>
@@ -166,6 +166,6 @@
         </div>
     </footer>
 </div>
-<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/scripts.min.js"></script>
 </body>
 </html>
