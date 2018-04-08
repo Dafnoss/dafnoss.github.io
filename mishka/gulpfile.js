@@ -15,9 +15,11 @@ var run = require("run-sequence");
 var del = require("del");
 
 gulp.task("style", function() {
-    gulp.src("less/style.less")
+   gulp.src("less/style.less")
         .pipe(plumber())
-        .pipe(less())
+       .pipe(less({
+           paths: ['./**/*.less']
+       }))
         .pipe(postcss([
             autoprefixer()
         ]))
@@ -31,11 +33,15 @@ gulp.task("style", function() {
 gulp.task("serve", function () {
     server.init({
         server: "build/",
-        browser: "google chrome"
+        browser: "google chrome",
+        notify: false,
+        open: true,
+        cors: true,
+        ui: false
     });
 
-    gulp.watch("less/**/*.less", ["build"]);
-    gulp.watch("*.html", ["build"]);
+    gulp.watch("less/**/*.less", ["style"]);
+    gulp.watch("*.html", ["html"]);
 });
 
 gulp.task("images", function () {
@@ -71,7 +77,6 @@ gulp.task("html", function () {
             include()
         ]))
         .pipe(gulp.dest("build"))
-        .pipe(server.stream());
 });
 
 gulp.task("build", function (done){
@@ -81,7 +86,8 @@ gulp.task("build", function (done){
         "style",
       //  "sprite",
         "html",
-        done);
+        done
+    );
 });
 
 gulp.task("copy", function () {
