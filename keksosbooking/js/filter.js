@@ -28,7 +28,7 @@
             var filterSettings = {
                 'type': document.querySelector('#housing-type').value,
                 'priceRange': document.querySelector('#housing-price').value,
-                'rooms': document.querySelector('#housing-rooms').value,
+                'wrooms': document.querySelector('#housing-rooms').value,
                 'guests': document.querySelector('#housing-guests').value,
                 'features': {
                     'wifi': housingFeatures.querySelector('#filter-wifi').checked,
@@ -53,6 +53,8 @@
                 // маприруем загруженные данные
                 dataCopy.map(function (value) {
                     value.offer.priceRange = 'any';
+                    value.offer.wguests = value.offer.guests;
+                    value.offer.wrooms = value.offer.rooms;
 
                     if (value.offer.price <= 10000) {
                         value.offer.priceRange = 'low';
@@ -65,11 +67,11 @@
                     }
 
                     if (value.offer.rooms > 3) {
-                        value.offer.rooms = 'any';
+                        value.offer.wrooms = 'any';
                     }
 
                     if (value.offer.guests > 2) {
-                        value.offer.guests = 'any';
+                        value.offer.wguests = 'any';
                     }
 
                     value.offer.rooms = value.offer.rooms.toString();
@@ -95,7 +97,7 @@
 
                     //фильтры
 
-                    if (funcSelect('type') || funcSelect('priceRange') || funcSelect('rooms') || funcSelect('guests')) {
+                    if (funcSelect('type') || funcSelect('priceRange') || funcSelect('wrooms') || funcSelect('guests')) {
                         continue;
                     }
 
