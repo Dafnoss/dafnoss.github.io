@@ -8,7 +8,7 @@
     var checkinTime = document.querySelector('#timein');
     var checkoutTime = document.querySelector('#timeout');
 
-    var syncValues = function(element, value) {
+    var syncValues = function (element, value) {
         element.value = value;
     };
 
@@ -49,33 +49,59 @@
     roomNumber.addEventListener('change', function () {
         switch (roomNumber.value) {
             case '1':
-                capacitySel.innerHTML='';
+                capacitySel.innerHTML = '';
                 capacitySel.appendChild(oneGuest);
                 break;
             case '2':
-                capacitySel.innerHTML='';
+                capacitySel.innerHTML = '';
                 capacitySel.appendChild(oneGuest);
                 capacitySel.appendChild(twoGuest);
                 break;
             case '3':
-                capacitySel.innerHTML='';
+                capacitySel.innerHTML = '';
                 capacitySel.appendChild(oneGuest);
                 capacitySel.appendChild(twoGuest);
                 capacitySel.appendChild(treeGuest);
                 break;
             case '100':
-                capacitySel.innerHTML='';
+                capacitySel.innerHTML = '';
                 capacitySel.appendChild(noGuest);
                 break;
         }
     });
 
+
+
 //Мутим кнопку сброса формы
     var clearBtn = form.querySelector('.ad-form__reset');
-    clearBtn.addEventListener('click', function (evt) {
+    var clearForm = function (evt) {
+        if (evt) {
         evt.preventDefault();
+    }
         form.reset();
-    });
+
+        //резет фотографий
+        document.querySelector('.ad-form-header__preview img').src = 'img/muffin-grey.svg';
+        var photoContainer = document.querySelector('.ad-form__photo-container');
+        var photos = document.querySelectorAll('.ad-form__photo');
+        var pasteNode = document.querySelector('.ad-form__photo').cloneNode();
+
+        var photosArr = Array.from(photos);
+        photosArr.forEach(function (val, i, arr) {
+            photoContainer.removeChild(val);
+        });
+
+        photoContainer.appendChild(pasteNode);
+
+        window.loadStatus = 0;
+        form.classList.add('ad-form--disabled');
+        window.map.map.classList.add('map--faded');
+        window.removePins();
+        document.querySelector('.map__pin--main').setAttribute('style', 'left: 570px; top: 375px');
+
+    };
+
+    clearBtn.addEventListener('click', clearForm);
 
 //Отправляем форму
     form.addEventListener('submit', function (evt) {
@@ -83,7 +109,10 @@
 
         var onLoad = function (successMessage) {
             console.log(successMessage);
-            form.reset();
+
+
+            clearForm();
+
         };
 
         var onError = function (errorMessage) {
@@ -98,7 +127,7 @@
             document.form.insertAdjacentElement('afterbegin', node);
         };
 
-        window.backend.upload(new FormData(form), onLoad, onError);
+        window.createXhrRequest('POST', 'https://js.dump.academy/keksobooking', onLoad, onError, new FormData(form));
     })
 
 })();
