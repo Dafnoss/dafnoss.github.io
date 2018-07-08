@@ -29,7 +29,7 @@
                 'type': document.querySelector('#housing-type').value,
                 'priceRange': document.querySelector('#housing-price').value,
                 'wrooms': document.querySelector('#housing-rooms').value,
-                'guests': document.querySelector('#housing-guests').value,
+                'wguests': document.querySelector('#housing-guests').value,
                 'features': {
                     'wifi': housingFeatures.querySelector('#filter-wifi').checked,
                     'dishwasher': housingFeatures.querySelector('#filter-dishwasher').checked,
@@ -74,8 +74,8 @@
                         value.offer.wguests = 'any';
                     }
 
-                    value.offer.wrooms = value.offer.rooms.toString();
-                    value.offer.wguests = value.offer.guests.toString();
+                    value.offer.wrooms = value.offer.wrooms.toString();
+                    value.offer.wguests = value.offer.wguests.toString();
 
                 });
 
@@ -97,7 +97,7 @@
 
                     //фильтры
 
-                    if (funcSelect('type') || funcSelect('priceRange') || funcSelect('wrooms') || funcSelect('guests')) {
+                    if (funcSelect('type') || funcSelect('priceRange') || funcSelect('wrooms') || funcSelect('wguests')) {
                         continue;
                     }
 
