@@ -74,8 +74,8 @@
                         value.offer.wguests = 'any';
                     }
 
-                    value.offer.rooms = value.offer.rooms.toString();
-                    value.offer.guests = value.offer.guests.toString();
+                    value.offer.wrooms = value.offer.rooms.toString();
+                    value.offer.wguests = value.offer.guests.toString();
 
                 });
 
