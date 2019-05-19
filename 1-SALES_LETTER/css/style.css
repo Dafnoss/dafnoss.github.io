@@ -188,9 +188,23 @@ h2 {
 }
 
 h6 {
-  font-size: 46px;
+  font-size: 40px;
   line-height: 56px;
   padding: 25px 0;
+}
+
+.sub-title {
+  font-size: 25px;
+  padding: 0px 0;
+
+}
+
+.top-description {
+  text-align: center!important;
+}
+
+.top-main-button {
+  margin-top: 30px!important;
 }
 
 img {
@@ -200,6 +214,10 @@ img {
 p {
   padding: 1.5% 0;
   font-family: 'Roboto',sans-serif;
+}
+
+.slider_cell.top-slider-item p {
+  text-align: center!important;
 }
 
 hr {
@@ -553,7 +571,7 @@ a.btn-sml {
 
 .test_name-sidebar {
   padding: 5px 0;
-  
+
 }
 
 .test_profile {
@@ -587,7 +605,7 @@ a.btn-sml {
   text-align: center !important;
   padding: 15px;
   display: inline-block;
-  margin: 1%;
+  margin: 2%;
   vertical-align: top;
 }
 
@@ -645,6 +663,107 @@ p.slider_cell {
   text-align: left;
 }
 
+img.circle {
+  padding-top: 0px;
+}
+
+.under-title {
+  text-align: center!important;
+}
+
+.request-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.input-item {
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+.input-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.input-item.btn-sml {
+  height: 45px;
+  font-family: 'Lora';
+  text-transform: uppercase;
+  border: none;
+}
+
+.top-slider {
+  padding-bottom: 0px;
+}
+
+.problems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.problems-image img {
+  padding: 0px;
+}
+
+.problems-bullets li {
+  list-style: none;
+}
+
+.problems-image, .problems-bullets {
+  width: 50%;
+}
+
+.problems-bullets h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.problems-bullets p {
+  font-size: 15px;
+}
+
+.human-title {
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center!important;
+}
+
+.img-item {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 140px;
+  overflow: hidden;
+}
+
+.img-item img {
+  padding: 0px;
+}
+
+.certificates {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.certificate-item {
+  padding-bottom: 50px;
+  padding-left: 10px ;
+  padding-right: 10px;
+}
+
+.certificate-item img {
+  padding: 0px;
+}
+
+.certificates-header {
+  margin-top: 50px;
+}
 
 /* MOBILE STYLES */
 @media screen and (max-width:640px) {
@@ -752,5 +871,5 @@ p.slider_cell {
     text-align: center;
   }
 
- 
+
 }
